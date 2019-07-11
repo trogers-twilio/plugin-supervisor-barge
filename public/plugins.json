@@ -1,0 +1,13 @@
+[
+  {
+    "name": "SupervisorBargePlugin",
+    "version": "0.0.0",
+    "class": "SupervisorBargePlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1"
+      }
+    ],
+    "src": "http://localhost:3000/plugin-supervisor-barge.js"
+  }
+]
