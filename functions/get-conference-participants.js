@@ -56,7 +56,7 @@ exports.handler = async function(context, event, callback) {
   const client = context.getTwilioClient();
   const participants = await client
     .conferences(conference)
-    .participants()
+    .participants
     .list();
   console.log('participants:');
   participants.forEach(p => console.log(p));
